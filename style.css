@@ -1,0 +1,102 @@
+/* nav area */
+#nav-logo {
+  height: 100px;
+  width: 100px;
+}
+#nav-btn {
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+}
+
+/* header bike area style */
+
+#bike-btn {
+  background-color: tomato;
+  color: white;
+  padding: 7px 15px;
+}
+#header-bg {
+  background-color: #264653;
+  height: 820px;
+}
+#header-img {
+  width: 552px;
+  height: 400px;
+}
+/* fetured bike area style */
+#bike-bg {
+  background-image: url("images/Frame\ 57.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fetured-p {
+  color: rgb(253, 55, 19);
+}
+#img-grayscale {
+  filter: grayscale(100%);
+}
+/* Latest new area style */
+#btn-outline {
+  color: rgb(238, 133, 115);
+  border: 1px solid rgb(248, 95, 68);
+}
+
+/* Happy clints style */
+
+#clints-img-width {
+  width: 149px;
+  height: 149px;
+}
+.fas {
+  color: tomato;
+}
+
+/* <!-- Frequently Asked Questions style --> */
+#freequently-img {
+  width: 431px;
+  height: 423px;
+}
+
+/* --------Footer image---- */
+#footer-img-1 {
+  width: 135px;
+  height: 40px;
+}
+
+#footer-img-2 {
+  width: 90px;
+  height: 40px;
+}
+
+#footer-bg {
+  height: 200px;
+}
+
+.fab {
+  color: #dd7b1f;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+.far {
+  color: #f44336;
+}
+
+#watch-btn {
+  background-color: rgb(192, 17, 61);
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 13px;
+  border-radius: 5px;
+}
+
+/* submit area style */
+#submit-bg {
+  background-image: url("images/Frame\ 58.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* -----------END----------- */
