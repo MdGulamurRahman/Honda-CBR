@@ -105,4 +105,73 @@ body {
   background-size: cover;
 }
 
+/* Added Preloader */
+.pre-loader{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1000000;
+}
+.loader{
+  width: 50px;
+  height: 50px;
+  margin: 50px auto 0;
+  transform: rotate(45deg);
+  position: relative;
+  animation: rotation 1s infinite;
+}
+.loader div{
+  background-color: #37a041;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+}
+.loader div:nth-child(1){ animation: shape1 0.3s ease 0s infinite alternate; }
+.loader div:nth-child(2){
+  background-color: #3867d6;
+  left: auto;
+  right: 0;
+  animation: shape2 0.3s ease 0.3s infinite alternate;
+}
+.loader div:nth-child(3){ 
+  background-color: #ffa502;
+  bottom: 0;
+  animation: shape3 0.3s ease 0.3s infinite alternate;
+}
+.loader div:nth-child(4){ 
+  background-color: #eb2f06;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  animation: shape4 0.3s ease 0s infinite alternate;
+}
+@keyframes rotation{
+  0%{ transform: rotate(0deg); }
+  100%{ transform: rotate(360deg); }
+}
+@keyframes shape1{
+  0%{ transform: translate(0, 0); }
+  100%{ transform: translate(10px, 10px); }
+}
+@keyframes shape2{
+  0%{ transform: translate(0, 0); }
+  100%{ transform: translate(-10px, 10px); }
+}
+@keyframes shape3{
+  0%{ transform: translate(0, 0); }
+  100%{ transform: translate(10px, -10px); }
+}
+@keyframes shape4{
+  0%{ transform: translate(0, 0); }
+  100%{ transform: translate(-10px, -10px); }
+}
+
 /* -----------END----------- */
